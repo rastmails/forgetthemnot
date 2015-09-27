@@ -15,11 +15,13 @@
 
 .hero-unit {
     position: relative;
-    padding: 30px 15px;
+    padding: 75px 25px;
     color: #F5F5F5;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-    background: #4393B9;
+    background-image: url("../assets/images/carrousel.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
 }
 
 .footer {
@@ -31,4 +33,14 @@
 
 .navbar-text {
   margin-left: 15px;
+}
+
+.container {
+    text-align: left;
+    text-decoration: underline;
+    color: #872A49;
+}
+
+.navbar {
+    background-color: #872A49;
 }
